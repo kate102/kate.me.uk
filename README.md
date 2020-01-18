@@ -8,3 +8,7 @@ Help & Inspiration
 The initial app will be broadly based on the content of an Udemy course 
 The Complete React Developer Course (with hooks and Redux) 
 https://www.udemy.com/course/react-2nd-edition/learn/lecture/7707614
+
+
+Execution
+To run my litte app locally I need to run ```live-server public``` from the kate.me.uk directory.
