@@ -4,33 +4,42 @@ console.log('App.js is running');
 
 // JSX Javascripit synatx extension
 // Provided my React
+
+var appOutline = {
+    appTitle: 'Kates App',
+    appSubtitle1: 'Education',
+    appSubtitle2: 'Work Experience',
+    appSubtitle3: 'Roles and Responsibilites',
+    appSubtitle4: 'Hobbies'
+};
+
 var template = React.createElement(
     'div',
     null,
     React.createElement(
         'h1',
         null,
-        'Kates App'
+        appOutline.appTitle
     ),
     React.createElement(
         'h2',
         null,
-        'Education'
+        appOutline.appSubtitle1
     ),
     React.createElement(
         'h2',
         null,
-        'Work Experience'
+        appOutline.appSubtitle2
     ),
     React.createElement(
         'h2',
         null,
-        'Roles and Responsibilites'
+        appOutline.appSubtitle3
     ),
     React.createElement(
         'h2',
         null,
-        'Hobbies'
+        appOutline.appSubtitle4
     )
 );
 var appRoot = document.getElementById('app');

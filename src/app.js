@@ -2,13 +2,24 @@ console.log('App.js is running');
 
 // JSX Javascripit synatx extension
 // Provided my React
+
+const appOutline = {
+    appTitle: 'Kates App',
+    appSubtitle1: 'Education',
+    appSubtitle2: 'Work Experience',
+    appSubtitle3: 'Roles and Responsibilites',
+    appSubtitle4: 'Hobbies'
+}
+
+
+
 var template =  (
     <div>
-        <h1>Kates App</h1>
-        <h2>Education</h2>
-        <h2>Work Experience</h2>
-        <h2>Roles and Responsibilites</h2>
-        <h2>Hobbies</h2>
+        <h1>{appOutline.appTitle}</h1>
+        <h2>{appOutline.appSubtitle1}</h2>
+        <h2>{appOutline.appSubtitle2}</h2>
+        <h2>{appOutline.appSubtitle3}</h2>
+        <h2>{appOutline.appSubtitle4}</h2>
     </div>
 )
 var appRoot = document.getElementById('app');
