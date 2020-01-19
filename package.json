@@ -1,0 +1,24 @@
+{
+  "name": "kate.me.uk",
+  "version": "1.0.0",
+  "description": "Goal The purpose of this project, is two fold. Firstly it is to create an app that can be used as a respository for my CV and for more informal information, but also as a vehicle for me to learn to create a React app.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "reac": "^0.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/kate102/kate.me.uk.git",
+  "author": "<kate.morris.new@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kate102/kate.me.uk/issues"
+  },
+  "homepage": "https://github.com/kate102/kate.me.uk#readme"
+}

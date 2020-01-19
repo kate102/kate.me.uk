@@ -12,3 +12,13 @@ https://www.udemy.com/course/react-2nd-edition/learn/lecture/7707614
 
 Execution
 To run my litte app locally I need to run ```live-server public``` from the kate.me.uk directory.
+
+Set Up
+ npm install -g yarn
+yarn global add live-server
+npm init
+npm install react react-dom
+yarn global add babel-cli@6.24.1
+yarn add babel-preset-react@6.24.1 babel-preset-env@1.5.2
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+
